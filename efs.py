@@ -11,7 +11,7 @@ def efs(limit):
     even = 2
     current_sum = 3
     even_sum = 2
-    while current_sum < limit:
+    while current_sum <= limit:
         if current_sum % 2 == 0:
             even_sum += current_sum
         odd = even
